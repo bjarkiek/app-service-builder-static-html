@@ -1,0 +1,57 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: App Service Builder
+    - generic [ref=e13]: HTML sample for App Service Builder
+    - link "HTML documentation ↗" [ref=e14] [cursor=pointer]:
+      - /url: https://html.spec.whatwg.org/multipage/
+  - main [ref=e15]:
+    - region "Simply static. Ready to say hello." [ref=e16]:
+      - generic [ref=e17]:
+        - paragraph [ref=e18]: HTML sample
+        - heading "Simply static. Ready to say hello." [level=1] [ref=e19]:
+          - text: Simply static.
+          - generic [ref=e20]: Ready to say hello.
+        - paragraph [ref=e21]: Hello from a browser-ready static sample.
+        - button "Check app health" [ref=e22] [cursor=pointer]
+        - status [ref=e23]: Checks the static health file, not Azure services.
+      - figure "An illustration of a simple HTML greeting." [ref=e24]:
+        - generic [ref=e25]:
+          - code [ref=e26]: public/index.html
+          - generic [ref=e27]: HTML
+        - img "HTML5" [ref=e29]
+        - code [ref=e35]: <main> Hello from a browser-ready static sample. </main>
+    - region "About this sample" [ref=e37]:
+      - generic [ref=e38]:
+        - heading "Just the essentials" [level=2] [ref=e39]
+        - paragraph [ref=e40]:
+          - text: A dependency-free, browser-ready greeting at
+          - code [ref=e41]: /
+          - text: .
+      - generic [ref=e42]:
+        - heading "Static by design" [level=2] [ref=e43]
+        - paragraph [ref=e44]:
+          - text: Builder publishes
+          - code [ref=e45]: public/
+          - text: directly. No build step or running server.
+      - generic [ref=e46]:
+        - heading "A simple health check" [level=2] [ref=e47]
+        - paragraph [ref=e48]:
+          - text: The static
+          - code [ref=e49]: /health
+          - text: asset returns
+          - code [ref=e50]: OK
+          - text: .
+    - paragraph [ref=e51]:
+      - text: To customize this page, edit
+      - code [ref=e52]: public/index.html
+      - text: in your own source repository, then deploy that commit.
+      - link "Builder documentation" [ref=e53] [cursor=pointer]:
+        - /url: https://builder.appservice.azure.com/docs/
+  - contentinfo [ref=e54]:
+    - paragraph [ref=e55]: App Service Builder / static-html
+    - paragraph [ref=e56]: For development and testing only. Live end-to-end qualification is pending.
+    - paragraph [ref=e57]:
+      - text: HTML5 logo from
+      - link "the official project" [ref=e58] [cursor=pointer]:
+        - /url: https://www.w3.org/html/logo/
+      - text: ; used to identify this sample’s technology.
