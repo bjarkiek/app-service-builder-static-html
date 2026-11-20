@@ -18,12 +18,12 @@
     <style>
       :root {
         color-scheme: light;
-        --violet-50:#f5f3ff; --violet-100:#ede9fe; --violet-200:#ddd6fe; --violet-500:#8b5cf6;
-        --violet-600:#7c3aed; --violet-700:#6d28d9; --violet-800:#5b21b6;
+        --orange-50:#fff7ed; --orange-100:#ffedd5; --orange-200:#fed7aa; --orange-500:#f97316;
+        --orange-600:#ea580c; --orange-700:#c2410c; --orange-800:#9a3412;
         --bg:#fafafa; --card:#ffffff; --sunken:#f5f5f5; --text:#171717; --muted:#737373;
-        --border:#e5e5e5; --subtle-bg:#f5f3ff; --subtle-border:#ddd6fe;
-        --primary:#7c3aed; --primary-hover:#6d28d9; --primary-active:#5b21b6; --on-primary:#fff;
-        --stripe:linear-gradient(90deg,#f9c815 0 25%,#f07124 25% 50%,#ed0e78 50% 75%,#6640a2 75% 100%);
+        --border:#e5e5e5; --subtle-bg:#fff7ed; --subtle-border:#fed7aa;
+        --primary:#c2410c; --primary-hover:#9a3412; --primary-active:#7c2d12; --on-primary:#fff;
+        --stripe:linear-gradient(90deg,#fbbf24 0 25%,#f59e0b 25% 50%,#f97316 50% 75%,#c2410c 75% 100%);
         --shadow:0 1px 2px rgba(23,23,23,.06),0 8px 24px rgba(23,23,23,.06);
         --head:"Space Grotesk","IBM Plex Sans",system-ui,sans-serif;
         --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
@@ -32,8 +32,8 @@
       html[data-theme="dark"] {
         color-scheme: dark;
         --bg:#0a0a0a; --card:#171717; --sunken:#111111; --text:#ffffff; --muted:#a3a3a3;
-        --border:#333333; --subtle-bg:#2e1065; --subtle-border:#4c1d95;
-        --primary:#8b5cf6; --primary-hover:#a78bfa; --primary-active:#c4b5fd; --on-primary:#0a0a0a;
+        --border:#333333; --subtle-bg:#431407; --subtle-border:#7c2d12;
+        --primary:#f97316; --primary-hover:#fb923c; --primary-active:#fdba74; --on-primary:#0a0a0a;
         --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.4);
       }
       * { box-sizing: border-box; }
@@ -47,7 +47,7 @@
       body::before { content: ""; display: block; height: 6px; background: var(--stripe); }
       a { color: var(--primary); }
       a:hover { color: var(--primary-hover); }
-      a:focus-visible, button:focus-visible { outline: 2px solid var(--violet-500); outline-offset: 3px; border-radius: 6px; }
+      a:focus-visible, button:focus-visible { outline: 2px solid var(--orange-500); outline-offset: 3px; border-radius: 6px; }
       button.action { border: 0; font: inherit; cursor: pointer; }
       button:disabled { opacity: .7; cursor: wait; }
       code { font-family: var(--mono); }
